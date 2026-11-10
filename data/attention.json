@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "id": "biomarker-shortlist",
+      "title": "Biomarker job-hunt shortlist lands",
+      "detail": "Friday shortlist lands Nov 13 at 9:40am. Latest leads: Lila Sciences Senior/Principal ML Scientist ($268–384K, SF) and Amgen Scientist, Inflammation Discovery ($123–166K, South SF). Drafts only — nothing sent.",
+      "deadline": "2026-11-13T09:40:00-08:00",
+      "kind": "job"
+    },
+    {
+      "id": "uber-cash",
+      "title": "$25 Uber Cash expires",
+      "detail": "Use the $25 Uber Cash before it expires on Nov 15, 2026.",
+      "deadline": "2026-11-15",
+      "kind": "money"
+    },
+    {
+      "id": "prime-visa-offer",
+      "title": "Prime Visa $100 offer ends",
+      "detail": "The $100 Prime Visa offer ends Nov 20, 2026.",
+      "deadline": "2026-11-20",
+      "kind": "money"
+    },
+    {
+      "id": "costco-renewal",
+      "title": "Costco membership renewal",
+      "detail": "Renew by Dec 30, 2026 or the Citi card closes and cash back is forfeited.",
+      "deadline": "2026-12-30",
+      "kind": "money"
+    }
+  ]
+}

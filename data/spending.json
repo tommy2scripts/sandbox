@@ -1,0 +1,14 @@
+{
+  "period": "Last 30 days",
+  "currency": "USD",
+  "categories": [
+    { "name": "Food & drink", "amount": 859.81 },
+    { "name": "Transportation", "amount": 235.81 },
+    { "name": "Travel", "amount": 193.62 },
+    { "name": "General merchandise", "amount": 123.91 },
+    { "name": "Personal care", "amount": 97.99 },
+    { "name": "General services", "amount": 42.70 },
+    { "name": "Government & nonprofit", "amount": 37.00 },
+    { "name": "Bank fees", "amount": 27.86 }
+  ]
+}

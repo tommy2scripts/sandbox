@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "when": "Wed Nov 11",
+      "title": "Veterans Day",
+      "detail": "US holiday, all day"
+    },
+    {
+      "when": "Sat Nov 14, 2:00–3:00pm",
+      "title": "Bay Area Kinky Climbing Meetup",
+      "detail": "Pacific Pipe, 2140 Mandela Parkway, Oakland"
+    }
+  ]
+}

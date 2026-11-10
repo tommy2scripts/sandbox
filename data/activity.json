@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "id": "v2-picked-up",
+      "at": "2026-11-10T03:26:14-08:00",
+      "kind": "harness",
+      "text": "Harness picked up Mission Control v2 iteration 1 (issue #3) and started the build.",
+      "link": "https://github.com/tommy2scripts/sandbox/issues/3"
+    },
+    {
+      "id": "v2-issue-opened",
+      "at": "2026-11-10T03:24:45-08:00",
+      "kind": "board",
+      "text": "Tommy opened issue #3: Mission Control v2 iteration 1 — data-driven board + activity feed."
+    },
+    {
+      "id": "health-check",
+      "at": "2026-11-10T03:23:43-08:00",
+      "kind": "harness",
+      "text": "Health check passed: orchestrator ready, 1 worker running, 0 queued."
+    },
+    {
+      "id": "go-key-wired",
+      "at": "2026-11-10",
+      "kind": "harness",
+      "text": "OpenCode Go key wired; DeepSeek V4.1 Flash is the default model."
+    },
+    {
+      "id": "v1-published",
+      "at": "2026-11-09T22:16:00-08:00",
+      "kind": "board",
+      "text": "v1 board snapshot published to Spacefast at mission-control-live.space.fast."
+    },
+    {
+      "id": "biomarin-alert",
+      "at": "2026-11-09T21:58:00-08:00",
+      "kind": "job",
+      "text": "BioMarin Sr. Scientist I, Analytical Sciences ($130–179K/year) alert landed on LinkedIn; awaiting a call."
+    },
+    {
+      "id": "paypal-payment",
+      "at": "2026-11-09T21:42:00-08:00",
+      "kind": "money",
+      "text": "PayPal Pay in 4 payment went through."
+    },
+    {
+      "id": "facebook-offer",
+      "at": "2026-11-09",
+      "kind": "flip",
+      "text": "$45 offer approved on the Samsung monitor; message to Andrew Veran blocked on the Facebook login."
+    }
+  ]
+}
