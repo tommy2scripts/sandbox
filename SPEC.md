@@ -89,3 +89,11 @@ biomarker job hunt, money admin, lab distillation kit, rewards cards.
 - Do not touch anything outside this repo. Do not change the DSH harness config.
 - Keep v1's existing dark/light styling language; iteration 1 restructures the
   data, it does not redesign the look.
+- **Design System (Spacefast team standards):** if a team Design System is
+  enabled for tommy-team, read the team agent-context first
+  (`GET /v1/teams/{teamId}/agent-context`) and apply the saved standards with
+  the `apply-design-system` skill, then check the build with
+  `verify-design-system`. If no Design System is enabled yet, fall back to v1's
+  styling tokens (dark bg #0f1115, card #171a21, text #f2f3f5, muted #9aa3af,
+  line #262b36, accent #7cc4ff, good #4ade80, warn #fbbf24; system-ui type;
+  14px card radius; 1100px max width) and do not invent a new look.
