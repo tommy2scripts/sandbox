@@ -3,6 +3,7 @@ const DATA_FILES = {
   attention: 'data/attention.json',
   activity: 'data/activity.json',
   health: 'data/health.json',
+  telemetry: 'data/telemetry.json',
   accounts: 'data/accounts.json',
   spending: 'data/spending.json',
   week: 'data/week.json',
@@ -132,6 +133,21 @@ function renderHealth(health) {
   }, strip);
 }
 
+function renderTelemetry(data) {
+  const strip = el('div', { class: 'telemetry-strip' });
+  for (const stat of data.stats) {
+    strip.append(el('div', { class: 'telemetry-cell' },
+      el('p', { class: 'telemetry-label' }, stat.label),
+      el('p', { class: 'telemetry-value ' + toneClass(stat.tone) }, stat.value),
+      el('p', { class: 'telemetry-detail' }, stat.detail),
+    ));
+  }
+  return boardSection('Harness telemetry', {
+    wide: true,
+    hint: 'Snapshot captured ' + formatStamp(data.capturedAt) + ' — hand-updated in data/telemetry.json.',
+  }, strip);
+}
+
 function renderThreads(data) {
   const grid = el('div', { class: 'thread-grid' });
   for (const thread of data.threads) {
@@ -253,6 +269,7 @@ function renderBoard(data) {
   const board = document.getElementById('board');
   board.replaceChildren(
     renderHealth(data.health),
+    renderTelemetry(data.telemetry),
     renderThreads(data.threads),
     renderAttention(data.attention),
     renderActivity(data.activity),

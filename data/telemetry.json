@@ -1,0 +1,55 @@
+{
+  "capturedAt": "2026-11-10T10:10:00-08:00",
+  "source": "Hand-maintained snapshot from sandbox issue/PR history and the orchestrator load API.",
+  "stats": [
+    {
+      "id": "tickets-received",
+      "label": "Tickets received",
+      "value": "4",
+      "detail": "Sandbox issues #1, #2, #3, #5.",
+      "tone": "neutral"
+    },
+    {
+      "id": "tickets-accepted",
+      "label": "Tickets accepted",
+      "value": "2",
+      "detail": "#3 iteration 1; #5 iteration 2.",
+      "tone": "good"
+    },
+    {
+      "id": "tickets-dropped",
+      "label": "Tickets dropped",
+      "value": "2",
+      "detail": "#1 no defect to fix; #2 duplicate.",
+      "tone": "neutral"
+    },
+    {
+      "id": "worker-status",
+      "label": "Worker status",
+      "value": "1 running",
+      "detail": "0 queued · 3 worker cap · orchestrator ready.",
+      "tone": "good"
+    },
+    {
+      "id": "median-job-time",
+      "label": "Median job time",
+      "value": "10m 31s",
+      "detail": "n=1 completed job (#3 pickup to ready).",
+      "tone": "neutral"
+    },
+    {
+      "id": "prs-opened",
+      "label": "PRs opened",
+      "value": "2",
+      "detail": "Iteration 1 and iteration 2.",
+      "tone": "neutral"
+    },
+    {
+      "id": "prs-merged",
+      "label": "PRs merged",
+      "value": "1",
+      "detail": "Iteration 1 (#4).",
+      "tone": "good"
+    }
+  ]
+}

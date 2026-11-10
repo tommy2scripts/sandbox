@@ -10,8 +10,9 @@ board from JSON in `data/`. No build step, no framework, no server.
 ## How it works
 
 - `index.html` — page shell. It contains no board content.
-- `app.js` — fetches the data files and renders the health strip, thread cards,
-  deadline-sorted attention queue, activity feed, accounts, spending, and week ahead.
+- `app.js` — fetches the data files and renders the health strip, telemetry strip,
+  thread cards, deadline-sorted attention queue, activity feed, accounts, spending,
+  and week ahead.
 - `styles.css` — the styling tokens carried over from v1.
 - `data/` — the board's content as JSON. Edit data files, not HTML.
 - `SPEC.md` — the v2 spec and roadmap.
@@ -24,14 +25,15 @@ board from JSON in `data/`. No build step, no framework, no server.
 | `data/attention.json` | "Needs your call" items with a deadline; rendered earliest deadline first. |
 | `data/activity.json` | Latest harness, board, job, money, and flip-hunt events. |
 | `data/health.json` | Build-time snapshot of DSH harness health, current model, and free-model quota state. |
+| `data/telemetry.json` | Hand-maintained harness telemetry: tickets received/accepted/dropped, worker status, median job time, and PRs opened/merged. |
 | `data/accounts.json` | Account balances and bills. |
 | `data/spending.json` | Last-30-day spending categories; the total is computed at render time. |
 | `data/week.json` | Week-ahead calendar events. |
 
 Dates and times are ISO 8601 in Pacific time (`2026-11-13T09:40:00-08:00`).
 Date-only values (`2026-11-20`) mean the whole day. The attention queue and
-activity feed sort in `app.js`, so file order does not matter. `health.json` is a
-snapshot baked in at build time, not a live probe.
+activity feed sort in `app.js`, so file order does not matter. `health.json` and
+`telemetry.json` are snapshots baked in at build time, not live probes.
 
 ## Updating the board
 
