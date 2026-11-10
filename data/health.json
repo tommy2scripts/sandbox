@@ -1,0 +1,27 @@
+{
+  "capturedAt": "2026-11-10T03:28:40-08:00",
+  "source": "orchestrator /orchestrator/api/state",
+  "items": [
+    {
+      "id": "harness",
+      "label": "Harness",
+      "state": "good",
+      "value": "Orchestrator ready",
+      "detail": "1 worker running · 0 queued · 3 worker cap · hourly watchdog armed"
+    },
+    {
+      "id": "model",
+      "label": "Model",
+      "state": "good",
+      "value": "DeepSeek V4.1 Flash",
+      "detail": "OpenCode Go provider · default model · key wired Nov 10, 2026"
+    },
+    {
+      "id": "quota",
+      "label": "Free-model quota",
+      "state": "neutral",
+      "value": "Not tracked yet",
+      "detail": "Quota and spend land with the v2.3 cost ledger."
+    }
+  ]
+}

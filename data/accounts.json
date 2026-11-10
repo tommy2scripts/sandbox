@@ -1,0 +1,22 @@
+{
+  "note": "Plaid balances are the bank's last reported figures.",
+  "accounts": [
+    {
+      "name": "Prime Visa ••••3924",
+      "balance": 1276.35,
+      "detail": "$7,623.14 available of $9,000 limit"
+    },
+    {
+      "name": "Chase College checking ••••6280",
+      "balance": 1476.26,
+      "detail": null
+    }
+  ],
+  "bills": [
+    {
+      "name": "Prime Visa statement",
+      "amount": 1235.14,
+      "detail": "Minimum $40 · due Dec 5, 2026 · 27.74% APR"
+    }
+  ]
+}

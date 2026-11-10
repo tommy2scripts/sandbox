@@ -1,0 +1,41 @@
+{
+  "updatedAt": "2026-11-10T03:30:00-08:00",
+  "threads": [
+    {
+      "id": "deepseek-harness",
+      "title": "DeepSeek harness",
+      "status": "Online · model ready",
+      "tone": "good",
+      "owner": "Tommy + harness",
+      "nextAction": "Review the Mission Control v2 iteration 1 PR; merge when the board checks out.",
+      "detail": "Orchestrator online on the VM, watching tommy2scripts/sandbox; hourly watchdog armed. OpenCode Go key wired Nov 10, 2026 — default model DeepSeek V4.1 Flash."
+    },
+    {
+      "id": "flip-hunt",
+      "title": "Flip hunt — Samsung monitor",
+      "status": "Go at $45 · login pending",
+      "tone": "warn",
+      "owner": "Tommy",
+      "nextAction": "Enter the Facebook login in chat so the $45 message can go to Andrew Veran.",
+      "detail": "Samsung U32R590 32in curved 4K monitor, $50 in Moraga, seller Andrew Veran. $45 offer approved; message blocked until the Facebook login is entered in chat."
+    },
+    {
+      "id": "biomarker",
+      "title": "Biomarker job hunt",
+      "status": "Shortlist Fri Nov 13",
+      "tone": "neutral",
+      "owner": "Tommy",
+      "nextAction": "Review the shortlist when it lands Fri Nov 13, 9:40am. Drafts only — nothing sent.",
+      "detail": "Latest leads: Lila Sciences Senior/Principal ML Scientist ($268–384K, SF) and Amgen Scientist, Inflammation Discovery ($123–166K, South SF). BioMarin Sr. Scientist I ($130–179K) is still awaiting a call."
+    },
+    {
+      "id": "money-admin",
+      "title": "Money admin",
+      "status": "Payoff in progress",
+      "tone": "neutral",
+      "owner": "Tommy",
+      "nextAction": "Renew Costco by Dec 30, 2026; keep the Prime Visa payoff first (27.74% APR).",
+      "detail": "Payoff order: Prime Visa first (27.74% APR), then Citi Costco (due Dec 1). Citi card is not in Plaid — its balance comes from mail. Costco membership tied to the Citi card must be renewed by Dec 30, 2026 or the card closes."
+    }
+  ]
+}

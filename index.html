@@ -4,101 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mission Control Live — Tommy Tran</title>
-<style>
-  :root { color-scheme: light dark; --bg:#0f1115; --card:#171a21; --text:#f2f3f5; --muted:#9aa3af; --line:#262b36; --accent:#7cc4ff; --good:#4ade80; --warn:#fbbf24; }
-  @media (prefers-color-scheme: light) { :root { --bg:#f6f7f9; --card:#fff; --text:#111827; --muted:#6b7280; --line:#e5e7eb; --accent:#0369a1; } }
-  * { box-sizing:border-box; } body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background:var(--bg); color:var(--text); }
-  header { max-width:1100px; margin:0 auto; padding:28px 20px 8px; }
-  h1 { margin:0 0 6px; font-size:28px; } p.sub { margin:0; color:var(--muted); }
-  main { max-width:1100px; margin:0 auto; padding:16px 20px 40px; display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:16px; }
-  section { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; }
-  section.wide { grid-column: 1 / -1; }
-  h2 { margin:0 0 12px; font-size:17px; } h3 { margin:14px 0 4px; font-size:15px; }
-  ul { margin:0; padding-left:18px; } li { margin:6px 0; line-height:1.45; }
-  .pill { display:inline-block; font-size:12px; padding:3px 8px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
-  .good { color:var(--good); } .warn { color:var(--warn); }
-  .num { font-variant-numeric: tabular-nums; }
-  footer { max-width:1100px; margin:0 auto; padding:0 20px 32px; color:var(--muted); font-size:13px; }
-  a { color:var(--accent); }
-</style>
+<meta name="description" content="Tommy Tran's one board for the open threads: harness health, thread cards, attention queue, activity feed, accounts, spending, and week ahead.">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
   <h1>Mission Control Live</h1>
-  <p class="sub">Tommy Tran — one board for the open threads. Snapshot from the live board, refreshed Nov 9, 2026 at 10:16pm PT. This Spacefast copy is a static snapshot; the Muse board refreshes itself.</p>
+  <p class="sub" id="snapshot-line">Loading the board…</p>
 </header>
-<main>
-  <section class="wide">
-    <h2>Open threads</h2>
-    <ul>
-      <li><strong>DeepSeek harness</strong> — <span class="good">Online · key needed</span><br>Orchestrator online on the VM and watching tommy2scripts/sandbox; hourly watchdog armed. Still needs a DeepSeek API key before a ticket's executor has a model to work with.</li>
-      <li><strong>Flip hunt — Samsung monitor</strong> — <span class="warn">Go at $45 · login pending</span><br>Samsung U32R590 32in curved 4K monitor, $50 in Moraga, seller Andrew Veran. $45 offer approved; message blocked until the Facebook login is entered in chat.</li>
-      <li><strong>Biomarker job hunt</strong> — <span class="pill">Shortlist Fri Nov 13</span><br>Friday shortlist lands Nov 13, 9:40am. Latest leads: Lila Sciences Senior/Principal ML Scientist ($268–384K, SF) and Amgen Scientist, Inflammation Discovery ($123–166K, South SF). Drafts only — nothing sent.</li>
-      <li><strong>Money admin</strong> — <span class="pill">Payoff in progress</span><br>Payoff order: Prime Visa first (27.74% APR), then Citi Costco (due Dec 1). Citi card is not in Plaid — its balance comes from mail. Costco membership tied to the Citi card must be renewed by Dec 30, 2026 or the card closes.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Needs your call</h2>
-    <ul>
-      <li><strong>BioMarin: Sr. Scientist I, Analytical Sciences — $130K–$179K/year</strong><br>LinkedIn job alert Nov 9, 2026. Open approval.</li>
-      <li><strong>DeepSeek API key</strong> — harness has no model until a key is added.</li>
-      <li><strong>Facebook login</strong> — needed to send the $45 message to Andrew Veran.</li>
-      <li><strong>Costco membership</strong> — renew by Dec 30, 2026 or the Citi card closes and cash back is forfeited.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Accounts &amp; bills</h2>
-    <ul>
-      <li>Prime Visa ••••3924 — <span class="num">$1,276.35</span> current, $7,623.14 available, $9,000 limit</li>
-      <li>Chase College checking ••••6280 — <span class="num">$1,476.26</span></li>
-      <li>Prime Visa statement balance <span class="num">$1,235.14</span>, minimum <span class="num">$40</span>, due Dec 5, 2026, 27.74% APR</li>
-    </ul>
-    <p class="sub">Plaid balances are the bank's last reported figures.</p>
-  </section>
-
-  <section>
-    <h2>30-day spending</h2>
-    <ul>
-      <li>Food &amp; drink — <span class="num">$859.81</span></li>
-      <li>Transportation — <span class="num">$235.81</span></li>
-      <li>Travel — <span class="num">$193.62</span></li>
-      <li>General merchandise — <span class="num">$123.91</span></li>
-      <li>Personal care — <span class="num">$97.99</span></li>
-      <li>General services — <span class="num">$42.70</span></li>
-      <li>Government &amp; nonprofit — <span class="num">$37.00</span></li>
-      <li>Bank fees — <span class="num">$27.86</span></li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Week ahead</h2>
-    <ul>
-      <li><strong>Wed Nov 11</strong> — Veterans Day (US holiday, all day)</li>
-      <li><strong>Sat Nov 14, 2:00–3:00pm</strong> — Bay Area Kinky Climbing Meetup, Pacific Pipe, 2140 Mandela Parkway, Oakland</li>
-    </ul>
-  </section>
-
-  <section class="wide">
-    <h2>Latest job alerts &amp; money mail</h2>
-    <h3>Job alerts — Nov 9</h3>
-    <ul>
-      <li>$130K-$179K/year: Sr. Scientist I, Analytical Sciences at BioMarin Pharmaceutical Inc. (LinkedIn, 9:58pm)</li>
-      <li>CHEManager International is hiring a Scientist, Biological Sciences (LinkedIn, 9:58pm)</li>
-      <li>Mammoth Biosciences is hiring a Senior Software Engineer I, Research Informatics (LinkedIn, 5:58pm)</li>
-      <li>You may be a fit for Clay's Data Scientist role (LinkedIn, 6:02pm)</li>
-      <li>Research Associate Discovery Chemistry at Tailored Management and 5 more jobs in San Francisco, CA (Glassdoor, 4:32pm)</li>
-    </ul>
-    <h3>Money mail — Nov 9</h3>
-    <ul>
-      <li>Your PayPal Pay in 4 payment went through (PayPal, 9:42pm)</li>
-      <li>A link to your statement is now available (Sud Specialty Group, 4:39pm)</li>
-    </ul>
-  </section>
+<main id="board" aria-live="polite">
+  <p class="meta">Loading board data…</p>
 </main>
+<noscript>
+  <p class="noscript-note">This board renders from data/*.json and needs JavaScript enabled.</p>
+</noscript>
 <footer>
-  Published to Spacefast as a private space in Tommy's Team. Snapshot only — balances, jobs, and threads change; the Muse Mission Control Live board is the one that refreshes.
+  Published to Spacefast as a private space in Tommy's Team. Static snapshot — edit data/*.json and publish to refresh.
 </footer>
+<script src="app.js" defer></script>
 </body>
 </html>
