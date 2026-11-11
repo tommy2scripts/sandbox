@@ -84,8 +84,17 @@ biomarker job hunt, money admin, lab distillation kit, rewards cards.
 - Static site only: one page plus data files, no server, no build step, no
   secrets or API keys anywhere in the repo. Never paste keys into issues, code,
   or data files.
-- Every change via pull request; Tommy merges. Do not auto-merge, do not push
-  to main.
+- Every change via pull request; never push directly to main. CI
+  (`validate` check) must pass on every PR.
+- Delivery policy (auto-merge stays on, tiered by risk):
+  - Low-risk (docs, isolated UI fixes, tests, small bug fixes): auto-merge
+    once the PR is ready and the required CI checks pass.
+  - Medium-risk (new features, refactors, dependencies): auto-merge only
+    after stronger tests pass and automated review is clean; escalate to a
+    person when the policy is uncertain.
+  - High-risk (credentials, auth, spending, deployment infrastructure,
+    destructive operations): human approval before merge or execution; never
+    auto-merge.
 - Do not touch anything outside this repo. Do not change the DSH harness config.
 - Keep v1's existing dark/light styling language; iteration 1 restructures the
   data, it does not redesign the look.
