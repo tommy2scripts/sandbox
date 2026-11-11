@@ -58,6 +58,16 @@ a { color: var(--accent); }
 .health-value.neutral { color: var(--text); }
 .health-detail { margin: 0; color: var(--muted); font-size: 13px; }
 
+/* Telemetry strip */
+.telemetry-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; }
+.telemetry-cell { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+.telemetry-label { margin: 0; color: var(--muted); font-size: 12.5px; }
+.telemetry-value { margin: 6px 0 4px; font-size: 24px; font-weight: 600; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.telemetry-value.good { color: var(--good); }
+.telemetry-value.warn { color: var(--warn); }
+.telemetry-value.accent { color: var(--accent); }
+.telemetry-detail { margin: 0; color: var(--muted); font-size: 12.5px; line-height: 1.4; }
+
 /* Open threads */
 .thread-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
 .thread-card { border: 1px solid var(--line); border-radius: 14px; padding: 14px; display: flex; flex-direction: column; }
